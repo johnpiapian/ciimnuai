@@ -14,10 +14,10 @@ export default function Document() {
                     <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
                         <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
                             <li class="mr-3">
-                                <a class="inline-block p-2 text-white no-underline" href="/">Home</a>
+                                <a class="inline-block p-1 px-2 text-white no-underline" href="/">Home</a>
                             </li>
                             <li class="mr-3">
-                                <a class="inline-block p-2 text-white no-underline" href="/about">About</a>
+                                <a class="inline-block py-1 px-2 text-white no-underline" href="/about">About</a>
                             </li>
                         </ul>
                     </div>
