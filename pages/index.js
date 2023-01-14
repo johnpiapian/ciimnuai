@@ -16,7 +16,7 @@ export default function Home() {
     </Head>
     <main>
         <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
-            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 text-justify">
                 <h1 class="font-bold text-3xl my-4">Welcome</h1>
                 <p class="leading-normal mb-4">Hih website pen ciimnuai vontawi Zomi te thu tawh kisai thu tuamtuamte kepcingna ding in a kigel ahih man in, kep huai theih huai a tuamtuamte nong behlap pih nading un a kua maciat tung ah ong kingen hi.</p>
                 <button class="bg-transparent hover:bg-gray-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent"><Link href='/about'>Learn more</Link></button>
