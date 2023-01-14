@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Link from 'next/link'
 
 export default function Document() {
     return (
@@ -14,10 +15,10 @@ export default function Document() {
                     <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
                         <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
                             <li class="mr-3">
-                                <a class="inline-block p-1 px-2 text-white no-underline" href="/">Home</a>
+                                <Link class="inline-block p-1 px-2 text-white no-underline" href="/">Home</Link>
                             </li>
                             <li class="mr-3">
-                                <a class="inline-block py-1 px-2 text-white no-underline" href="/about">About</a>
+                                <Link class="inline-block py-1 px-2 text-white no-underline" href="/about">About</Link>
                             </li>
                         </ul>
                     </div>

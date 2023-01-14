@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,7 +28,7 @@ export default function Home() {
                 </p>
             </div>
             <div class="w-full lg:w-1/2 lg:py-6 text-center">
-                <img class="rounded-lg" src='/imgs/tedim-background.jpeg'/>
+                <Image class="rounded-lg" alt='tedim-background' src='/imgs/tedim-background.jpeg'/>
             </div>
         </div>
     </main>
