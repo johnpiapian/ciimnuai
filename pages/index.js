@@ -22,7 +22,7 @@ export default function Home() {
                 <button class="bg-transparent hover:bg-gray-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent"><Link href='/about'>Learn more</Link></button>
             </div>
             <div class="w-full lg:w-1/2 lg:py-6 text-center">
-                <Image class="rounded-lg" alt='memorial_stone_at_historical_site_of_ciimnuai' src='/imgs/memorial_stone_at_historical_site_of_ciimnuai.jpeg'/>
+                <img class='rounded-lg w-full' src='/imgs/memorial_stone_at_historical_site_of_ciimnuai.jpeg' alt='Memorial stone at historical site of ciimnuai'/>
             </div>
         </div>
 

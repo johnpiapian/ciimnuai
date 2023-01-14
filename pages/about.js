@@ -28,7 +28,7 @@ export default function Home() {
                 </p>
             </div>
             <div class="w-full lg:w-1/2 lg:py-6 text-center">
-                <Image class="rounded-lg" alt='tedim-background' src='/imgs/tedim-background.jpeg'/>
+                <img class='rounded-lg w-full' src='/imgs/tedim-hill.jpeg' alt='Tedim hill'/>
             </div>
         </div>
     </main>
