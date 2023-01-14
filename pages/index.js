@@ -14,14 +14,38 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
     </Head>
-    <main className="w-full h-screen bg-cover bg-no-repeat bg-center bg-fixed bg-[url('/tedim-background.jpeg')]">
-        <div className="w-full h-screen backdrop-blur-[3px] flex flex-col">
-            <article className="m-auto max-w-[400px] p-4 rounded-md bg-[#0009] text-[#ccc]">
-                <h1 className="text-center text-3xl font-bold p-3">Welcome</h1>
-                <p className="text-center text-base">
-                    Hih website pen ciimnuai vontawi Zomi te thu tawh kisai thu tuamtuamte kepcingna ding in a kigel ahih man in, kep huai theih huai a tuamtuamte nong behlap pih nading un a kua maciat tung ah ong kingen hi.
-                </p>
-            </article>
+	<nav class="bg-gray-800 p-2 mt-0 w-full">
+		<div class="container mx-auto flex flex-wrap items-center">
+			<div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
+				<a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+					<span class="text-2xl pl-2"><i class="em em-grinning"></i> Ciimnuai</span>
+				</a>
+			</div>
+			<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+				<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+					<li class="mr-3">
+						<a class="inline-block py-2 px-4 text-white no-underline" href="#">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+    <main>
+        <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+            <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6">
+                <h1 class="font-bold text-3xl my-4">Muakna</h1>
+                <p class="leading-normal mb-4">Hih website pen ciimnuai vontawi Zomi te thu tawh kisai thu tuamtuamte kepcingna ding in a kigel ahih man in, kep huai theih huai a tuamtuamte nong behlap pih nading un a kua maciat tung ah ong kingen hi.</p>
+                <button class="bg-transparent hover:bg-gray-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent">Learn more</button>
+            </div>
+            <div class="w-full lg:w-1/2 lg:py-6 text-center">
+                <img class="rounded-lg" src='/imgs/memorial_stone_at_historical_site_of_ciimnuai.jpeg'/>
+            </div>
+        </div>
+
+        <div class="bg-white h-[300px]">
+            <div class="container mx-auto pt-24 md:pt-16 px-6">
+                <p class="py-4"><i class="em em-wave"></i> <i class="em em-world_map"></i></p>		
+            </div>
         </div>
     </main>
     </>
