@@ -18,19 +18,19 @@ export default function Extra() {
             <div class="flex flex-col w-full lg:w-2/3 justify-center items-start pt-12 pb-24 px-6 text-justify">
                 <h1 class="font-bold text-3xl my-4">Relevant websites</h1>
                 <p class="leading-normal mb-4">
-                    <a class='underline font-bold' href='http://www.zogam.org/' target='_blank'>Zogam</a> - Thutuamtuam kicing a postna
+                    <a class='underline font-bold' href='http://www.zogam.org/' target='_blank' rel='noopener noreferrer'>Zogam</a> - Thutuamtuam kicing a postna
                 </p>
                 <p class="leading-normal mb-4">
-                    <a class='underline font-bold' href='https://zomidaily.org/' target='_blank'>Zomi daily</a> - News leh thudang tuamtuam postna
+                    <a class='underline font-bold' href='https://zomidaily.org/' target='_blank' rel='noopener noreferrer'>Zomi daily</a> - News leh thudang tuamtuam postna
                 </p>
                 <p class="leading-normal mb-4">
-                    <a class='underline font-bold' href='http://zomilibrary.com/' target='_blank'>Zogam library</a> - Laibu tuamtuam kepcingna
+                    <a class='underline font-bold' href='http://zomilibrary.com/' target='_blank' rel='noopener noreferrer'>Zogam library</a> - Laibu tuamtuam kepcingna
                 </p>
                 <p class="leading-normal mb-4">
-                    <a class='underline font-bold' href='https://www.tongdot.com/' target='_blank'>Tongdot</a> - Pau khiatna (dictionary) lam tawh kisai
+                    <a class='underline font-bold' href='https://www.tongdot.com/' target='_blank' rel='noopener noreferrer'>Tongdot</a> - Pau khiatna (dictionary) lam tawh kisai
                 </p>
                 <p class="leading-normal mb-4">
-                    <a class='underline font-bold' href='https://www.zaideih.com/' target='_blank'>Zaideih</a> - La leh music lam tawh kisai
+                    <a class='underline font-bold' href='https://www.zaideih.com/' target='_blank' rel='noopener noreferrer'>Zaideih</a> - La leh music lam tawh kisai
                 </p>
             </div>
         </div>
