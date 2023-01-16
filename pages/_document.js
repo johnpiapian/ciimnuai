@@ -20,6 +20,9 @@ export default function Document() {
                             <li class="mr-3">
                                 <Link class="inline-block py-1 px-2 text-white no-underline" href="/about">About</Link>
                             </li>
+                            <li class="mr-3">
+                                <Link class="inline-block py-1 px-2 text-white no-underline" href="/extra">Extra</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
