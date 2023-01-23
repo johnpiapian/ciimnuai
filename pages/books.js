@@ -40,7 +40,7 @@ export default function Books() {
                                     </td>
                                     <td class="px-6 py-4 text-center">
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/lcy7bo3igshchgm/Zomite-thukhenna.pdf'>Read</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/lcy7bo3igshchgm/Zomite-thukhenna.pdf' rel='noreferrer'>Read</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -53,7 +53,7 @@ export default function Books() {
                                     </td>
                                     <td class="px-6 py-4 text-center">
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/y5mjcbnketqlwo8/Naulak%20Beh%20Tangthu.pdf'>Read</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/y5mjcbnketqlwo8/Naulak%20Beh%20Tangthu.pdf' rel='noreferrer'>Read</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -66,10 +66,10 @@ export default function Books() {
                                     </td>
                                     <td class="px-6 py-4 text-center">
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/oa7tpyj197qr056/the_chin_hills-1.pdf'>Read Vol I</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/oa7tpyj197qr056/the_chin_hills-1.pdf' rel='noreferrer'>Read Vol I</a>
                                         </div>
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/h4eo5u4fb58n7j0/the_chin_hills-vol-ii.pdf'>Read Vol II</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/h4eo5u4fb58n7j0/the_chin_hills-vol-ii.pdf' rel='noreferrer'>Read Vol II</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -82,7 +82,7 @@ export default function Books() {
                                     </td>
                                     <td class="px-6 py-4 text-center">
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/8r3entjjxoonumz/Zo%20History%20-%20Vumson.pdf'>Read</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/8r3entjjxoonumz/Zo%20History%20-%20Vumson.pdf' rel='noreferrer'>Read</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -95,13 +95,13 @@ export default function Books() {
                                     </td>
                                     <td class="px-6 py-4 text-center">
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/j5a3kwzf7m4hi1j/profile-of-a-burma-frontier-man-part-i.pdf'>Read Part I</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/j5a3kwzf7m4hi1j/profile-of-a-burma-frontier-man-part-i.pdf' rel='noreferrer'>Read Part I</a>
                                         </div>
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/nbrtwfpu4xyxhxi/profile-of-a-burma-frontier-man-part-ii.pdf'>Read Part II</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/nbrtwfpu4xyxhxi/profile-of-a-burma-frontier-man-part-ii.pdf' rel='noreferrer'>Read Part II</a>
                                         </div>
                                         <div class="text-sm text-gray-500 underline">
-                                            <a target='_blank' href='https://www.dropbox.com/s/9y4ta0ior8186uj/profile-of-a-burma-frontier-man-illustrations.pdf'>View Illustrations</a>
+                                            <a target='_blank' href='https://www.dropbox.com/s/9y4ta0ior8186uj/profile-of-a-burma-frontier-man-illustrations.pdf' rel='noreferrer'>View Illustrations</a>
                                         </div>
                                     </td>
                                 </tr>
