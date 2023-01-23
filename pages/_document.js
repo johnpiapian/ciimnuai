@@ -5,7 +5,7 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head />
-            <nav class="bg-[#686868] p-4 mt-0 w-full">
+            <nav class="bg-[#434343] p-4 mt-0 w-full">
                 <div class="container mx-auto flex flex-wrap items-center">
                     <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
                         <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
@@ -19,6 +19,9 @@ export default function Document() {
                             </li>
                             <li class="mr-3">
                                 <Link class="inline-block py-1 px-2 text-white no-underline" href="/about">About</Link>
+                            </li>
+                            <li class="mr-3">
+                                <Link class="inline-block py-1 px-2 text-white no-underline" href="/books">Books</Link>
                             </li>
                             <li class="mr-3">
                                 <Link class="inline-block py-1 px-2 text-white no-underline" href="/extra">Extra</Link>
