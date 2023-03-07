@@ -26,7 +26,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div class="bg-gray-300 h-[200px]">
+        <div class="h-[200px]">
             <div class="container mx-auto pt-24 md:pt-16 px-6">
                 <p class="py-4"><i class="em em-wave"></i> <i class="em em-world_map"></i></p>		
             </div>

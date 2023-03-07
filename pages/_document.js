@@ -5,7 +5,7 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head />
-            <nav class="bg-[#434343] p-4 mt-0 w-full">
+            <nav class="bg-[#434343] p-5 mt-0 w-full">
                 <div class="container mx-auto flex flex-wrap items-center">
                     <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
                         <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
@@ -15,16 +15,19 @@ export default function Document() {
                     <div class="flex w-full content-center justify-between md:w-1/2 md:justify-end">
                         <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
                             <li class="mr-3">
-                                <Link class="inline-block p-1 px-2 text-white no-underline" href="/">Home</Link>
+                                <Link class="inline-block p-1 px-2 text-white no-underline hover:text-[#d4d4d4]" href="/">Home</Link>
                             </li>
                             <li class="mr-3">
-                                <Link class="inline-block py-1 px-2 text-white no-underline" href="/about">About</Link>
+                                <Link class="inline-block py-1 px-2 text-white no-underline hover:text-[#d4d4d4]" href="/about">About</Link>
                             </li>
                             <li class="mr-3">
-                                <Link class="inline-block py-1 px-2 text-white no-underline" href="/books">Books</Link>
+                                <Link class="inline-block py-1 px-2 text-white no-underline hover:text-[#d4d4d4]" href="/gallery">Gallery</Link>
                             </li>
                             <li class="mr-3">
-                                <Link class="inline-block py-1 px-2 text-white no-underline" href="/extra">Extra</Link>
+                                <Link class="inline-block py-1 px-2 text-white no-underline hover:text-[#d4d4d4]" href="/books">Books</Link>
+                            </li>
+                            <li class="mr-3">
+                                <Link class="inline-block py-1 px-2 text-white no-underline hover:text-[#d4d4d4]" href="/extra">Extra</Link>
                             </li>
                         </ul>
                     </div>
