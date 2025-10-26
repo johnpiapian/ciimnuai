@@ -21,15 +21,15 @@ export default function Gallery({ images }) {
 
     useEffect(() => {
         if (selectedImage) {
-          document.body.style.overflow = 'hidden';
+            document.body.style.overflow = 'hidden';
         } else {
-          document.body.style.overflow = 'unset';
+            document.body.style.overflow = 'unset';
         }
-    
+
         return () => {
-          document.body.style.overflow = 'unset';
+            document.body.style.overflow = 'unset';
         };
-      }, [selectedImage]);
+    }, [selectedImage]);
 
     return (
         <>

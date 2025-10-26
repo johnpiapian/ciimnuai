@@ -23,9 +23,9 @@ export default function About() {
                 <p class="leading-normal mb-4">
                     Zomi te ih citawm ban ah mun tuamtaum ah ki thehthang mang ih hih man in, ih ngeina leh ih paizia te kepcing ding leh theihtel ding ong haksa semsem ta hi. A diakdiak in khangthak Zomi te in ih pau leh ham zong ki kemcing zo nawnlo mai hi. Tua te kawmkal ah ih ngeina leh ih thangthu a kepcinghuai mahmah pawlkhat zong ong mangthang dekdek ta hi. Hih teng ngaihsutna tawh website ong ki bawl khia hi in, kim tom cing in Cimmnuai vontawi Zomi te ngeina leh tangthu ki cian khahna ding in a ki gel a hihi.
                 </p>
-                <p class="leading-normal mb-4">
+                {/* <p class="leading-normal mb-4">
                     Hanciamna tawh a ki bawl a hih man in theihsak nop tuamtuam a om leh admin@ciimnuai.com.
-                </p>
+                </p> */}
             </div>
             <div class="w-full lg:w-1/2 lg:py-6 text-center">
                 <img class='rounded-lg w-full' src='/imgs/tedim-hill.jpeg' alt='Tedim hill'/>
