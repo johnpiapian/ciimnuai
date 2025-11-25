@@ -28,7 +28,7 @@ export default function Gallery() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`${inter.className} bg-gray-100 py-12`}>
+      <main className={`${inter.className} bg-gray-100 p-5`}>
         <div className="container mx-auto px-0">
 
           {/* Gallery Grid with no gap */}

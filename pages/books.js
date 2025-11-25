@@ -59,8 +59,8 @@ export default function Books() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`${inter.className} bg-gray-100 py-12`}>
-        <div className="container mx-auto px-4">
+      <main className={`${inter.className} bg-gray-100 p-5`}>
+        <div className="container mx-auto">
           <div className="overflow-x-auto">
             <table className="w-full divide-y table-fixed divide-gray-300 bg-white rounded-lg">
               <thead className="bg-gray-50 text-center">

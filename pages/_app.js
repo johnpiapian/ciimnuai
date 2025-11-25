@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <main className="bg-gray-100 min-h-screen">
+      <main className="min-h-screen max-w-6xl mx-auto p-5">
         <Component {...pageProps} />
       </main>
     </>
