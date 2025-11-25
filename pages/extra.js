@@ -4,11 +4,11 @@ import { Inter } from '@next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 const LINKS = [
-  { name: 'Zogam', url: 'http://www.zogam.org/', description: 'Thutuamtuam kicing a postna' },
+  { name: 'Zogam', url: 'http://www.zogam.org/', description: 'Thu tuamtuam kicing a postna' },
   { name: 'Zomi daily', url: 'https://zomidaily.org/', description: 'News leh thudang tuamtuam postna' },
   { name: 'Zogam library', url: 'http://zomilibrary.com/', description: 'Laibu tuamtuam kepcingna' },
-  { name: 'Tongdot', url: 'https://www.tongdot.com/', description: 'Pau khiatna (dictionary) lam tawh kisai' },
-  { name: 'Zaideih', url: 'https://www.zaideih.com/', description: 'La leh music lam tawh kisai' },
+  { name: 'Tongdot', url: 'https://www.tongdot.com/', description: 'Pau khiatna lam tawh kisai' },
+  { name: 'Zaideih', url: 'https://www.zaideih.com/', description: 'La lam tawh kisai' },
 ]
 
 export default function Extra() {
