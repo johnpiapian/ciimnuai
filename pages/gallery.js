@@ -22,27 +22,36 @@ export default function Gallery() {
   return (
     <>
       <Head>
-        <title>Ciimnuai</title>
+        <title>Gallery - Ciimnuai</title>
         <meta name="description" content="Zomi-related gallery" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`${inter.className} bg-gray-100 p-5`}>
-        <div className="container mx-auto px-0">
+      <main className={`${inter.className} bg-gray-50 min-h-screen`}>
+        <div className="container mx-auto px-4 md:px-6 py-16">
+          {/* Header */}
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              Gallery
+            </h1>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Explore the visual heritage of the Zomi people through our curated collection of images.
+            </p>
+          </div>
 
-          {/* Gallery Grid with no gap */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-            {IMAGES.map((image) => (
+          {/* Gallery Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {IMAGES.map((image, index) => (
               <div
                 key={image}
-                className="flex items-center justify-center cursor-pointer overflow-hidden"
+                className="cursor-pointer overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
                 onClick={() => handleClick(image)}
               >
                 <img
                   src={`/imgs/zomi-related/${image}`}
                   alt={`Zomi image ${image}`}
-                  className="w-full h-full object-cover"
+                  className="w-full max-h-64 object-contain"
                 />
               </div>
             ))}
@@ -52,18 +61,30 @@ export default function Gallery() {
         {/* Modal */}
         {selectedImage && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+            className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4"
             onClick={handleClose}
           >
-            <div
-              className="bg-white rounded-lg overflow-hidden max-w-full max-h-full"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <img
-                src={`/imgs/zomi-related/${selectedImage}`}
-                alt={`Zomi image ${selectedImage}`}
-                className="w-full h-auto"
-              />
+            <div className="relative max-w-4xl max-h-full">
+              {/* Close button */}
+              <button
+                onClick={handleClose}
+                className="absolute -top-12 right-0 text-white hover:text-gray-300 transition duration-200"
+              >
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+
+              <div
+                className="bg-white rounded-lg overflow-hidden shadow-xl"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <img
+                  src={`/imgs/zomi-related/${selectedImage}`}
+                  alt={`Zomi image ${selectedImage}`}
+                  className="w-full h-auto max-h-[80vh] object-contain"
+                />
+              </div>
             </div>
           </div>
         )}
