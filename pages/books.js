@@ -44,7 +44,6 @@ const BOOKS = [
     links: [
       { label: 'Read Part I', url: 'assets/books/profile-of-a-burma-frontier-man-part-i.pdf' },
       { label: 'Read Part II', url: 'assets/books/profile-of-a-burma-frontier-man-part-ii.pdf' },
-      // { label: 'View Illustrations', url: 'assets/books/profile-of-a-burma-frontier-man-illustrations.pdf' }, 
     ],
   },
 ]
@@ -53,41 +52,65 @@ export default function Books() {
   return (
     <>
       <Head>
-        <title>Ciimnuai</title>
+        <title>Books - Ciimnuai</title>
         <meta name="description" content="Ciimnuai Zomi books" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={`${inter.className} bg-gray-100 p-5`}>
-        <div className="container mx-auto">
-          <div className="overflow-x-auto">
-            <table className="w-full divide-y table-fixed divide-gray-300 bg-white rounded-lg">
-              <thead className="bg-gray-50 text-center">
-                <tr>
-                  <th className="px-6 py-2 text-xs text-gray-500">Title</th>
-                  <th className="px-6 py-2 text-xs text-gray-500">Description</th>
-                  <th className="px-6 py-2 text-xs text-gray-500">Source</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-300">
-                {BOOKS.map((book, index) => (
-                  <tr key={index}>
-                    <td className="px-6 py-4 text-sm text-gray-500">{book.title}</td>
-                    <td className="px-6 py-4 text-sm text-gray-500">{book.description}</td>
-                    <td className="px-6 py-4 text-center text-sm text-gray-500">
-                      {book.links.map((link, i) => (
-                        <div key={i} className="underline">
-                          <a href={link.url} target="_blank" rel="noreferrer">
-                            {link.label}
-                          </a>
-                        </div>
-                      ))}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+      <main className={`${inter.className} bg-gray-50 min-h-screen`}>
+        <div className="container mx-auto px-4 md:px-6 py-16">
+          {/* Header */}
+          <div className="text-center mb-12">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              Books
+            </h1>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Explore our collection of books preserving Zomi history, culture, and heritage.
+            </p>
+          </div>
+
+          {/* Books Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {BOOKS.map((book, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-md p-6 border border-gray-200"
+              >
+                <div className="flex items-start justify-between mb-4">
+                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                  </div>
+                </div>
+
+                <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight">
+                  {book.title}
+                </h3>
+
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {book.description}
+                </p>
+
+                <div className="flex flex-wrap gap-2">
+                  {book.links.map((link, i) => (
+                    <a
+                      key={i}
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-gray-800 text-white text-sm font-medium rounded hover:bg-gray-700 transition duration-200"
+                    >
+                      <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </main>
